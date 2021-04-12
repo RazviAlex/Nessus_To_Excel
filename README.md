@@ -34,7 +34,7 @@ This can be done by editing the file **\Nessus_toExcel\variables.properties**
 
 `data_end_report2 = %Jun 21%2020`
 
-4. Set severity between which leveles want to dump the data from report. It has to be configured between the technical and executive report  Nessus severity category: Informative = 0, Low = 1, Medium = 2, High = 3, Critical = 4.
+4. Set severity between which leveles want to dump the data from report. It has to be configured for the technical and executive report. Nessus severity category: Informative = 0, Low = 1, Medium = 2, High = 3, Critical = 4.
 
 `techincal_severity_min = 1`
 
