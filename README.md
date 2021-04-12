@@ -7,7 +7,7 @@
 ------------------------
 Customize the execution of the script based on different parameters. 
 This can be done by editing the file **\Nessus_toExcel\variables.properties**
-1. General parameters
+1. Set general parameters
 
 `execute_pythonScript = Y` -> necessary to transform the json raw data from nessus report.
 
@@ -18,13 +18,13 @@ This can be done by editing the file **\Nessus_toExcel\variables.properties**
 `compareReports = N` -> necessary to compare two different reports and get the vulnerabilities that are reaparing (also need down below to fill the dates between).
 
 
-2. Data generate report. Nnecessary when have multiple reports in the database and only one report is required. **%Month day%**
+2. Set data generate report. Nnecessary when have multiple reports in the database and only one report is required. **%Month day%**
 
 `data_start = %Jun 20%`
 
 `date_end = %Jun 22%`
 
-3. Data to compare two different reports.
+3. Set data to compare two different reports.
 
 `data_init_report1 = %Apr 24%2020`
 
