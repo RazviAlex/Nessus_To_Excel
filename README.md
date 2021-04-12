@@ -4,7 +4,9 @@
 
 
 **Configure script:**
-Customize the execution of the script based on different parameters. This can be done by editing the file **\Nessus_toExcel\variables.properties**
+
+Customize the execution of the script based on different parameters. 
+This can be done by editing the file **\Nessus_toExcel\variables.properties**
 1. General parameters
 `execute_pythonScript = Y` -> necessary to transform the json raw data from nessus report.
 `loadReport_toDDBB = Y` -> necessary to load raw data from nessus report to DDBB.
