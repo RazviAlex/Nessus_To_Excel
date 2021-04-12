@@ -4,7 +4,7 @@
 
 
 **Configure script:**
-
+------------------------
 Customize the execution of the script based on different parameters. 
 This can be done by editing the file **\Nessus_toExcel\variables.properties**
 1. General parameters
@@ -47,6 +47,6 @@ User_name = root
 Password = `
 
 **Execute script:**
-
+------------------------
 1. **From Pentaho Interface:** Open `Spoon.bat` file and run the script by default.
 2. **From CLI:** `Kitchen.bat /file:C:\..\Nessus_to_Excel\Job_Start_GeneralExcel.kjb /level:Basic`
