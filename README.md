@@ -2,11 +2,16 @@
 
 ![Pentaho2](https://user-images.githubusercontent.com/51793648/114426147-0c72bb00-9bba-11eb-8f21-7f20166c9c3b.png)
 
+**Execute script:**
+------------------------
+1. **From Pentaho Interface:** Open `Spoon.bat` file and run the script by default.
+2. **From CLI:** `Kitchen.bat /file:C:\..\Nessus_to_Excel\Job_Start_GeneralExcel.kjb /level:Basic`
+
 
 **Configure script:**
 ------------------------
 Customize the execution of the script based on different parameters. 
-This can be done by editing the file **\Nessus_toExcel\variables.properties**
+All this can be done by editing the file **\Nessus_toExcel\variables.properties**
 1. Set general parameters
 
 `execute_pythonScript = Y` -> necessary to transform the json raw data from nessus report.
@@ -57,8 +62,3 @@ This can be done by editing the file **\Nessus_toExcel\variables.properties**
 `User_name = root`
 
 `Password = `
-
-**Execute script:**
-------------------------
-1. **From Pentaho Interface:** Open `Spoon.bat` file and run the script by default.
-2. **From CLI:** `Kitchen.bat /file:C:\..\Nessus_to_Excel\Job_Start_GeneralExcel.kjb /level:Basic`
