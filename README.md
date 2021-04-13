@@ -33,46 +33,36 @@ All this can be done by editing the file **\Nessus_To_Excel\variables.properties
 
 
 - Set data generate report. Nnecessary when have multiple reports in the database and only one report is required. **%month day%year**
-
 ```bash
 data_start = %Jun 20%2019
 date_end = %Jun 22%2019
 ```
 
 - Set data to compare two different reports.
-
-`data_init_report1 = %Apr 24%2019`
-
-`data_end_report1 = %Apr 24%2019`
-
-`data_init_report2 = %Jun 21%2020`
-
-`data_end_report2 = %Jun 21%2020`
+```bash
+data_init_report1 = %Apr 24%2019
+data_end_report1 = %Apr 24%2019
+data_init_report2 = %Jun 21%2020
+data_end_report2 = %Jun 21%2020
+```
 
 - Set severity between which leveles want to dump the data from report. It has to be configured for the technical and executive report. Nessus severity category: Informative = 0, Low = 1, Medium = 2, High = 3, Critical = 4.
-
-`techincal_severity_min = 1`
-
-`techincal_severity_max = 4`
-
-`executive_severity_min = 2`
-
-`executive_severity_max = 4`
+```bash
+techincal_severity_min = 1
+techincal_severity_max = 4
+executive_severity_min = 2
+executive_severity_max = 4
+```
 
 - Set connection with the database (MySQL). Keep the same DDBB name.
-
-`Host_name = 127.0.0.1`
-
-`DataBase_name_init = world`
-
-`DataBase_name = nessus`
-
-`Port_number = 3306`
-
-`User_name = root`
-
-`Password = `
-
+```bash
+Host_name = 127.0.0.1
+DataBase_name_init = world
+DataBase_name = nessus
+Port_number = 3306
+User_name = root
+Password = 
+```
 
 **Requirements:**
 ------------------------
