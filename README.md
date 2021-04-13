@@ -10,14 +10,14 @@
 **Instalation**
 ------------------------
 
-**Connector**
-The database connector it is necessary because it will allow communication between pentaho and the database. The connector will depend on the database that is configured and it must be saved in the following pentaho path: **\data-integration\lib**
+**Download Connector**
+- The database connector it is necessary because it will allow communication between pentaho and the database. The connector will depend on the database that is configured and it must be saved in the following pentaho path: **\data-integration\lib**
 
 **Configure**
 ------------------------
 Customize the execution of the script based on different parameters. 
 All this can be done by editing the file **\Nessus_To_Excel\variables.properties**
-1. Set general parameters
+- Set general parameters
 
 `execute_pythonScript = Y` -> necessary to transform the json raw data from nessus report.
 
@@ -28,13 +28,13 @@ All this can be done by editing the file **\Nessus_To_Excel\variables.properties
 `compareReports = N` -> necessary to compare two different reports and get the vulnerabilities that are reaparing (also need down below to fill the dates between).
 
 
-2. Set data generate report. Nnecessary when have multiple reports in the database and only one report is required. **%month day%year**
+- Set data generate report. Nnecessary when have multiple reports in the database and only one report is required. **%month day%year**
 
 `data_start = %Jun 20%2019`
 
 `date_end = %Jun 22%2019`
 
-3. Set data to compare two different reports.
+- Set data to compare two different reports.
 
 `data_init_report1 = %Apr 24%2019`
 
@@ -44,7 +44,7 @@ All this can be done by editing the file **\Nessus_To_Excel\variables.properties
 
 `data_end_report2 = %Jun 21%2020`
 
-4. Set severity between which leveles want to dump the data from report. It has to be configured for the technical and executive report. Nessus severity category: Informative = 0, Low = 1, Medium = 2, High = 3, Critical = 4.
+- Set severity between which leveles want to dump the data from report. It has to be configured for the technical and executive report. Nessus severity category: Informative = 0, Low = 1, Medium = 2, High = 3, Critical = 4.
 
 `techincal_severity_min = 1`
 
@@ -54,7 +54,7 @@ All this can be done by editing the file **\Nessus_To_Excel\variables.properties
 
 `executive_severity_max = 4`
 
-5. Set connection with the database (MySQL). Keep the same DDBB name.
+- Set connection with the database (MySQL). Keep the same DDBB name.
 
 `Host_name = 127.0.0.1`
 
