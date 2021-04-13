@@ -34,9 +34,9 @@ All this can be done by editing the file **\Nessus_To_Excel\variables.properties
 
 - Set data generate report. Nnecessary when have multiple reports in the database and only one report is required. **%month day%year**
 
-`data_start = %Jun 20%2019`
-
-`date_end = %Jun 22%2019`
+```data_start = %Jun 20%2019
+date_end = %Jun 22%2019
+```
 
 - Set data to compare two different reports.
 
