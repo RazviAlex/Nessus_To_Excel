@@ -23,14 +23,12 @@ Customize the execution of the script based on different parameters.
 All this can be done by editing the file **\Nessus_To_Excel\variables.properties**
 - Set general parameters
 
-`execute_pythonScript = Y` -> necessary to transform the json raw data from nessus report.
-
-`loadReport_toDDBB = Y` -> necessary to load raw data from nessus report to DDBB.
-
-`generateReport_Excel = Y` -> necessary to generate Excel report (techincal & executive).
-
-`compareReports = N` -> necessary to compare two different reports and get the vulnerabilities that are reaparing (also need down below to fill the dates between).
-
+```bash
+execute_pythonScript = Y     necessary to transform the json raw data from nessus report.
+loadReport_toDDBB = Y        necessary to load raw data from nessus report to DDBB.
+generateReport_Excel = Y     necessary to generate Excel report (techincal & executive).
+compareReports = N           necessary to compare two different reports and get the vulnerabilities that are reaparing (also need down below to fill the dates between).
+```
 
 - Set data generate report. Nnecessary when have multiple reports in the database and only one report is required. **%month day%year**
 ```bash
