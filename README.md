@@ -2,7 +2,7 @@
 
 ![Pentaho2](https://user-images.githubusercontent.com/51793648/114426147-0c72bb00-9bba-11eb-8f21-7f20166c9c3b.png)
 
-**Transform the raw data from nessus file into excel for the analysis and management of the vulnerabilities found. Also when using a database it will be possible to store a history and make comparisons between different reports and detect those vulnerabilities that have not been corrected. . **
+**Transform the raw data from nessus file into excel for the analysis and management of the vulnerabilities found. Also when using a database it will be possible to store a history and make comparisons between different reports and detect those vulnerabilities that have not been corrected.**
 
 **Launch**
 ------------------------
