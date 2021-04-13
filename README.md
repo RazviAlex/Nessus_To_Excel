@@ -52,13 +52,8 @@ All this can be done by editing the file **\Nessus_To_Excel\variables.properties
 5. Set connection with the database (MySQL). Keep the same DDBB name.
 
 `Host_name = 127.0.0.1`
-
 `DataBase_name_init = world`
-
 `DataBase_name = nessus`
-
 `Port_number = 3306`
-
 `User_name = root`
-
 `Password = `
