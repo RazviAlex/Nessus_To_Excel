@@ -7,7 +7,6 @@
 1. **From Pentaho Interface:** Open `Spoon.bat` file and run the script by default.
 2. **From CLI:** `Kitchen.bat /file:C:\..\Nessus_to_Excel\Job_Start_GeneralExcel.kjb /level:Basic`
 
-
 **Configure:**
 ------------------------
 Customize the execution of the script based on different parameters. 
@@ -66,12 +65,12 @@ All this can be done by editing the file **\Nessus_To_Excel\variables.properties
 
 **Requirements:**
 ------------------------
-Pentaho
-- [Pentaho last version] (https://events.pentaho.com/CE-Download_Data-Integration-ALL-OS.html)
-- [Pentaho all version] (https://sourceforge.net/projects/pentaho/files/)
+**Pentaho software**
+- [Pentaho last version](<https://events.pentaho.com/CE-Download_Data-Integration-ALL-OS.html>)
+- [Pentaho all version](https://sourceforge.net/projects/pentaho/files/)
 
-DDBB (in this case used MySQL, can use any other, however for that you must find the right connector between the database and pentaho give the link below, and change the configuration file for the new DDBB)
-[test] (https://www.mysql.com/products/workbench/)
+**DDBB** (in this case used MySQL, can use any other, however for that you must find the right connector between the database and pentaho give the link below, and change the configuration file for the new DDBB)
+- [MySQL workbench] (https://www.mysql.com/products/workbench/)
 
-Connector MySQL - Pentaho
-https://dev.mysql.com/downloads/workbench/
+**DDBB Connector **
+- [All conectors for pentaho ](https://dev.mysql.com/downloads/workbench/)
