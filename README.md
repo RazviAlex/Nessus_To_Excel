@@ -2,12 +2,18 @@
 
 ![Pentaho2](https://user-images.githubusercontent.com/51793648/114426147-0c72bb00-9bba-11eb-8f21-7f20166c9c3b.png)
 
-**Execute:**
+**Launch**
 ------------------------
 1. **From Pentaho Interface:** Open `Spoon.bat` file and run the script by default.
 2. **From CLI:** `Kitchen.bat /file:C:\..\Nessus_to_Excel\Job_Start_GeneralExcel.kjb /level:Basic`
 
-**Configure:**
+**Instalation**
+------------------------
+
+**Connector**
+The database connector it is necessary because it will allow communication between pentaho and the database. The connector will depend on the database that is configured and it must be saved in the following pentaho path: **\data-integration\lib**
+
+**Configure**
 ------------------------
 Customize the execution of the script based on different parameters. 
 All this can be done by editing the file **\Nessus_To_Excel\variables.properties**
@@ -70,7 +76,7 @@ All this can be done by editing the file **\Nessus_To_Excel\variables.properties
 - [Pentaho all version](https://sourceforge.net/projects/pentaho/files/)
 
 **DDBB** (in this case used MySQL, can use any other, however for that you must find the right connector between the database and pentaho give the link below, and change the configuration file for the new DDBB)
-- [MySQL workbench] (https://www.mysql.com/products/workbench/)
+- [MySQL workbench](https://www.mysql.com/products/workbench/)
 
-**DDBB Connector **
+**DDBB Connector**
 - [All conectors for pentaho ](https://dev.mysql.com/downloads/workbench/)
