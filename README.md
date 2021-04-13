@@ -52,8 +52,26 @@ All this can be done by editing the file **\Nessus_To_Excel\variables.properties
 5. Set connection with the database (MySQL). Keep the same DDBB name.
 
 `Host_name = 127.0.0.1`
+
 `DataBase_name_init = world`
+
 `DataBase_name = nessus`
+
 `Port_number = 3306`
+
 `User_name = root`
+
 `Password = `
+
+
+**Requirements**
+------------------------
+Pentaho
+- [Pentaho last version] (https://events.pentaho.com/CE-Download_Data-Integration-ALL-OS.html)
+- [Pentaho all version] (https://sourceforge.net/projects/pentaho/files/)
+
+DDBB (in this case used MySQL, can use any other, however for that you must find the right connector between the database and pentaho give the link below, and change the configuration file for the new DDBB)
+https://www.mysql.com/products/workbench/
+
+Connector MySQL - Pentaho
+https://dev.mysql.com/downloads/workbench/
