@@ -55,7 +55,7 @@ executive_severity_min = 2
 executive_severity_max = 4
 ```
 
-- Set connection with the database (MySQL). Keep the same DDBB name.
+- Set connection with the database (MySQL by default). Try to keep the same DDBB name.
 ```bash
 Host_name = 127.0.0.1
 DataBase_name_init = world
