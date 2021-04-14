@@ -305,8 +305,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>80</xloc>
-      <yloc>32</yloc>
+      <xloc>32</xloc>
+      <yloc>144</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -317,8 +317,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>2240</xloc>
-      <yloc>32</yloc>
+      <xloc>1456</xloc>
+      <yloc>144</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -354,7 +354,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1120</xloc>
+      <xloc>736</xloc>
       <yloc>256</yloc>
       <attributes_kjc/>
     </entry>
@@ -391,7 +391,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1424</xloc>
+      <xloc>912</xloc>
       <yloc>256</yloc>
       <attributes_kjc/>
     </entry>
@@ -429,7 +429,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>736</xloc>
+      <xloc>416</xloc>
       <yloc>144</yloc>
       <attributes_kjc/>
     </entry>
@@ -466,7 +466,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>736</xloc>
+      <xloc>416</xloc>
       <yloc>256</yloc>
       <attributes_kjc/>
     </entry>
@@ -490,7 +490,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1632</xloc>
+      <xloc>1088</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
@@ -528,7 +528,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1632</xloc>
+      <xloc>1088</xloc>
       <yloc>256</yloc>
       <attributes_kjc/>
     </entry>
@@ -545,7 +545,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>256</xloc>
+      <xloc>32</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
@@ -569,7 +569,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>736</xloc>
+      <xloc>416</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
@@ -593,7 +593,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1120</xloc>
+      <xloc>736</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
@@ -611,7 +611,7 @@ No report was not loaded to DDBB
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>928</xloc>
+      <xloc>576</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
@@ -629,7 +629,7 @@ No report was generate any Excel file
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1392</xloc>
+      <xloc>912</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
@@ -647,7 +647,7 @@ No report was compare
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1840</xloc>
+      <xloc>1232</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
@@ -841,7 +841,7 @@ if __name__ == "__main__":
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>432</xloc>
+      <xloc>160</xloc>
       <yloc>256</yloc>
       <attributes_kjc/>
     </entry>
@@ -865,7 +865,7 @@ if __name__ == "__main__":
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>432</xloc>
+      <xloc>160</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
@@ -883,7 +883,7 @@ No python script was executed
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>560</xloc>
+      <xloc>288</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
@@ -921,7 +921,7 @@ No python script was executed
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>432</xloc>
+      <xloc>160</xloc>
       <yloc>144</yloc>
       <attributes_kjc/>
     </entry>
@@ -950,7 +950,7 @@ No python script was executed
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>2016</xloc>
+      <xloc>1360</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
@@ -978,7 +978,7 @@ No python script was executed
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>2112</xloc>
+      <xloc>1456</xloc>
       <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
