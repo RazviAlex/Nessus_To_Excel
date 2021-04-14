@@ -75,4 +75,4 @@ Password =
 - [MySQL workbench](https://www.mysql.com/products/workbench/)
 
 **DDBB Connector**
-- [All conectors for pentaho ](https://dev.mysql.com/downloads/workbench/)
+- [All conectors for pentaho ](https://help.pentaho.com/Documentation/6.1/0D0/160/010)
