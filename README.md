@@ -14,7 +14,7 @@
 ------------------------
 - **Download Pentaho software and DDBB**
 
-To execute the script it is necessary to download the **pentaho software** and a **database**. Pentaho no need instalation and the database can be installed by default (save configuration of the database installed, and if any default data has changed, update it in the configuration file). The script y default is configured to be used **mysql**, if want to change to another database you have to change the database data in the configuration file **variable.properties** 
+To execute the script it is necessary to download the **pentaho software** and a **database**. Pentaho no need instalation and the database can be installed by default (save configuration of the database installed, and if any default data has changed, update it in the configuration file). The script by default is configured to be used **mysql**, if change to another database you have to change the database data in the configuration file **variable.properties** 
 
 - **Download Connector**
 
