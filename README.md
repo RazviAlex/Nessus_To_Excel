@@ -8,7 +8,7 @@
 **Launch**
 ------------------------
 1. **From Pentaho Interface:** Open `Spoon.bat` file and run the script by default.
-2. **From CLI:** `Kitchen.bat /file:C:\..\Nessus_to_Excel\Job_Start_GeneralExcel.kjb /level:Basic`
+2. **From Terminal:** `Kitchen.bat /file:C:\..\Nessus_to_Excel\Job_Start_GeneralExcel.kjb /level:Basic`
 
 **Instalation**
 ------------------------
