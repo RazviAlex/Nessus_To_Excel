@@ -523,7 +523,7 @@
 (select vuln_name, count(distinct host_ip) as host_ip, count(distinct nessus.cve.cve_num) as cve
         from nessus.vulnerabilities
         left join nessus.cve ON nessus.vulnerabilities.plugin = nessus.cve.plugin
-        where (severity BETWEEN '$´{executive_severity_min}' AND '${executive_severity_max}') AND (nessus_datetime like '${data_start}' OR nessus_datetime like '${data_end}')
+        where (severity BETWEEN '${executive_severity_min}' AND '${executive_severity_max}') AND (nessus_datetime like '${data_start}' OR nessus_datetime like '${data_end}')
         group by vuln_name)
 As distinctified;
 
