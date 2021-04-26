@@ -5,12 +5,11 @@
 - **Transform raw data from nessus file into excel for the analysis and management of the vulnerabilities.**
 - **Include working with a database to store a history and make comparisons between different reports to detect those vulnerabilities that have not been corrected.**
 
-**Techinal report. Vulnerability list by host and group by CVE.**
 ![techincal](https://user-images.githubusercontent.com/51793648/116120253-a446cd80-a6bf-11eb-9fd4-16c93c72efae.png)
+_**Techinal report. Vulnerability list by host and group by CVE.**_
 
-**Executive report. Vulnerability list by priority and grouped by the number of CVEs and HOSTs affected.**
 ![executive](https://user-images.githubusercontent.com/51793648/116120266-a6a92780-a6bf-11eb-841d-f0209bddc5bd.png)
-
+_**Executive report. Vulnerability list by priority and grouped by the number of CVEs and HOSTs affected.**_
 
 **Launch**
 ------------------------
